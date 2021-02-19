@@ -1,19 +1,21 @@
 import Head from 'next/head'
+import Layout from '../components/layout'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+      <div className={styles.container}>
       <Head>
         <title>tao's portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to tao's portfolio
         </h1>
-
+      <section>
+        <Layout />
+      </section>  
         <div className={styles.grid}>
           <a href="https://twitter.com/thao_0108" className={styles.card}>
             <h3>Twitter &rarr;</h3>
