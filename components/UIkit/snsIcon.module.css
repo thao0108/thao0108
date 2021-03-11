@@ -1,0 +1,13 @@
+.snsIcons {
+ display: flex;
+ justify-content:space-between;
+}
+.icon {
+    display:flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.image {
+ cursor: pointer;
+}
