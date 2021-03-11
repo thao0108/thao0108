@@ -1,6 +1,8 @@
 import Head from 'next/head'
-import Layout from '../components/layout'
 import styles from '../styles/Home.module.css'
+import Profile from '../components/Profile/Profile'
+
+
 
 export default function Home() {
   return (
@@ -10,13 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to tao's portfolio
-        </h1>
-      <section>
-        <Layout />
-      </section>  
-        <div className={styles.grid}>
+      <Profile />
+    
+        {/* <div className={styles.grid}>
           <a href="https://twitter.com/thao_0108" className={styles.card}>
             <h3>Twitter &rarr;</h3>
           </a>
@@ -38,7 +36,7 @@ export default function Home() {
           >
             <h3>Wantedly &rarr;</h3>
           </a>
-        </div>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>
