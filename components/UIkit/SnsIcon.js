@@ -29,7 +29,7 @@ export default function SnsIcon() {
     <div className={style.snsIcons}>
       {imageIcons.map((icon) => (
         <div className={style.icon} key={icon.id}>
-          <Link href={icon.page}>
+          <a href={icon.page}>
               <Image
               priority
               src={icon.path}
@@ -38,8 +38,8 @@ export default function SnsIcon() {
               width={40}
               alt="icon"
             />        
-          </Link>
-          <Link href={icon.page}>{icon.id}</Link>
+            <p>{icon.id}</p>
+          </a>
          </div>
       ))}
     </div>

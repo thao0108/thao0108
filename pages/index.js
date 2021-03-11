@@ -9,34 +9,10 @@ export default function Home() {
       <div className={styles.container}>
       <Head>
         <title>tao's portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="" />
       </Head>
       <main className={styles.main}>
       <Profile />
-    
-        {/* <div className={styles.grid}>
-          <a href="https://twitter.com/thao_0108" className={styles.card}>
-            <h3>Twitter &rarr;</h3>
-          </a>
-
-          <a href="https://zenn.dev/thao_0108" className={styles.card}>
-            <h3>Zenn &rarr;</h3>
-          </a>
-
-          <a
-            href="https://github.com/thao0108"
-            className={styles.card}
-          >
-            <h3>Git Hub &rarr;</h3>
-          </a>
-
-          <a
-            href="https://www.wantedly.com/id/thao_0108"
-            className={styles.card}
-          >
-            <h3>Wantedly &rarr;</h3>
-          </a>
-        </div> */}
       </main>
 
       <footer className={styles.footer}>
