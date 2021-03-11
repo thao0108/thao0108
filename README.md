@@ -1,7 +1,7 @@
 # About me
 
 - Name: tao
-- Homepage: [https://thao.pro](https://thao.pro)
+- Homepage: [thao.pro](https://thao.pro)
 
 # My Github Profile Trophy
 
