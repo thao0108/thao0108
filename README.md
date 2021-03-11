@@ -1,7 +1,7 @@
 # About me
 
 - Name: tao
-- Homepage: [https://thao0108-1adwiib8g.vercel.app/](https://thao0108-1adwiib8g.vercel.app/)
+- Homepage: [https://thao.pro](https://thao.pro)
 
 # My Github Profile Trophy
 
