@@ -5,7 +5,7 @@
 
 # My Github Profile Trophy
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=thao0108)](https://github.com/thao0108/thao0108)
+[![trophy](https://github-profile-trophy.vercel.app/?username=thao0108&theme=radical&theme=dracula)](https://github-profile-trophy)
 
 # My GitHub works
 
