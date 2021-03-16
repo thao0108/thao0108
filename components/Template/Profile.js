@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import style from './profile.module.css'
 import SnsIcon from "../UIkit/SnsIcon";
+import style from '../../styles/components/profile.module.scss'
 
 export default function Profiler() {
   return (

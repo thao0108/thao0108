@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Profile from '../components/Profile/Profile'
-
+import styles from '../styles/Home.module.scss'
+import Profile from '../components/Template/Profile'
 
 
 export default function Home() {

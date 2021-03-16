@@ -1,5 +1,5 @@
 import Image from "next/image";
-import style from "./snsIcon.module.css";
+import style from "../../styles/components/SnsIcon.module.scss";
 
 export default function SnsIcon() {
   const imageIcons = [
